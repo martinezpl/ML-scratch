@@ -1,6 +1,6 @@
 from sklearn.datasets import make_blobs
 from scipy.optimize import linear_sum_assignment as linear_assignment
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans  # for comparison
 import numpy as np
 import time
 ### TO DO:
